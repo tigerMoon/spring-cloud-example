@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/spCloud-client/spCloud-client.iml" filepath="$PROJECT_DIR$/spCloud-client/spCloud-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spCloud-config-server/spCloud-config-server.iml" filepath="$PROJECT_DIR$/spCloud-config-server/spCloud-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spConfig-repo/spConfig-repo.iml" filepath="$PROJECT_DIR$/spConfig-repo/spConfig-repo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-example.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/spCloud-client/test-client-1/test-client-1.iml" filepath="$PROJECT_DIR$/spCloud-client/test-client-1/test-client-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/spCloud-client/test-client-2/test-client-2.iml" filepath="$PROJECT_DIR$/spCloud-client/test-client-2/test-client-2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spCloud-client/test-client-parent.iml" filepath="$PROJECT_DIR$/spCloud-client/test-client-parent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spCloud-config-server/test-configserver.iml" filepath="$PROJECT_DIR$/spCloud-config-server/test-configserver.iml" />
     </modules>
   </component>
 </project>
