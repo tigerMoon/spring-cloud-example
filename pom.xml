@@ -19,6 +19,7 @@
     <modules>
         <module>foo-client</module>
         <module>bar-client</module>
+        <module>spConfig-server</module>
     </modules>
 
     <properties>

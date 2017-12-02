@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4105977b-d76d-4012-afc0-eb523a0d3285" name="Default" comment="add new module">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bar-client/src/main/java/org/tiger/test/client1/Application.java" afterPath="$PROJECT_DIR$/bar-client/src/main/java/org/tiger/test/client/bar/Application.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bar-client/src/main/java/org/tiger/test/client1/web/MvcConfig.java" afterPath="$PROJECT_DIR$/bar-client/src/main/java/org/tiger/test/client/bar/web/MvcConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bar-client/src/main/java/org/tiger/test/client1/web/SwaggerConfig.java" afterPath="$PROJECT_DIR$/bar-client/src/main/java/org/tiger/test/client/bar/web/SwaggerConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foo-client/src/main/java/org/tiger/test/client2/Application.java" afterPath="$PROJECT_DIR$/foo-client/src/main/java/org/tiger/test/client/foo/Application.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foo-client/src/main/java/org/tiger/test/client2/web/MvcConfig.java" afterPath="$PROJECT_DIR$/foo-client/src/main/java/org/tiger/test/client/foo/web/MvcConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/foo-client/src/main/java/org/tiger/test/client2/web/SwaggerConfig.java" afterPath="$PROJECT_DIR$/foo-client/src/main/java/org/tiger/test/client/foo/web/SwaggerConfig.java" />
+    <list default="true" id="4105977b-d76d-4012-afc0-eb523a0d3285" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spConfig-server/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/spCloud-config-server/target/" />
     <ignored path="$PROJECT_DIR$/spCloud-client/test-client-2/target/" />
@@ -26,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="315">
+              <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -82,7 +78,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -92,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bar-client/src/main/resources/application.yml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spConfig-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -167,11 +163,11 @@
         <option value="$PROJECT_DIR$/spCloud-client/pom.xml" />
         <option value="$PROJECT_DIR$/spCloud-client/bar-client/pom.xml" />
         <option value="$PROJECT_DIR$/spCloud-client/foo-client/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/foo-client/pom.xml" />
         <option value="$PROJECT_DIR$/bar-client/pom.xml" />
         <option value="$PROJECT_DIR$/bar-client/src/main/java/org/tiger/test/client1/Application.java" />
         <option value="$PROJECT_DIR$/bar-client/src/main/java/org/tiger/test/client/bar/Application.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -228,6 +224,24 @@
             <path>
               <item name="spring-cloud-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="spConfig-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="spConfig-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="spConfig-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -434,7 +448,7 @@
       <workItem from="1512189885864" duration="682000" />
       <workItem from="1512190698555" duration="2878000" />
       <workItem from="1512193686476" duration="246000" />
-      <workItem from="1512194153479" duration="67000" />
+      <workItem from="1512194153479" duration="498000" />
     </task>
     <task id="LOCAL-00001" summary="update config for client2">
       <created>1512121092357</created>
@@ -506,11 +520,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512193582297</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add new client module">
+      <created>1512194234028</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1512194234028</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20432000" />
+    <option name="totallyTimeSpent" value="20863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="29" y="23" width="1407" height="807" extended-state="0" />
@@ -563,14 +584,14 @@
     <MESSAGE value="add pom file" />
     <MESSAGE value="remove two module" />
     <MESSAGE value="add new module" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new module" />
+    <MESSAGE value="add new client module" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new client module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spCloud-config-server/src/main/java/org/tiger/test/web/MvcConfig.java" />
     <entry file="file://$PROJECT_DIR$/spCloud-client/test-client-2/src/main/java/org/tiger/test/client2/web/MvcConfig.java" />
     <entry file="file://$PROJECT_DIR$/spCloud-client/test-client-2/src/main/resources/application.yml" />
     <entry file="file://$PROJECT_DIR$/target/config/README.md" />
@@ -709,14 +730,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spCloud-client/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bar-client/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -791,6 +804,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spConfig-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding />
         </state>
       </provider>
