@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4105977b-d76d-4012-afc0-eb523a0d3285" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bar-client/src/main/java/org/tiger/test/BarApplication.java" afterPath="$PROJECT_DIR$/bar-client/src/main/java/org/tiger/test/BarApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spConfig-repo/client1/foo-dev.yml" afterPath="$PROJECT_DIR$/spConfig-repo/client1/foo-dev.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/spCloud-config-server/target/" />
@@ -25,15 +26,15 @@
       <file leaf-file-name="BarApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bar-client/src/main/java/org/tiger/test/BarApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="11">
+              <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#990#991#0" expanded="true" />
-                <element signature="e#1028#1029#0" expanded="true" />
-                <element signature="e#1074#1075#0" expanded="true" />
-                <element signature="e#1139#1140#0" expanded="true" />
-                <marker date="1512203187620" expanded="true" signature="600:651" ph="..." />
+                <element signature="e#1077#1078#0" expanded="true" />
+                <element signature="e#1115#1116#0" expanded="true" />
+                <element signature="e#1161#1162#0" expanded="true" />
+                <element signature="e#1226#1227#0" expanded="true" />
+                <marker date="1512209348298" expanded="true" signature="687:738" ph="..." />
               </folding>
             </state>
           </provider>
@@ -144,9 +145,9 @@
         <option value="$PROJECT_DIR$/bar-client/pom.xml" />
         <option value="$PROJECT_DIR$/foo-client/pom.xml" />
         <option value="$PROJECT_DIR$/spConfig-server/pom.xml" />
-        <option value="$PROJECT_DIR$/bar-client/src/main/java/org/tiger/test/BarApplication.java" />
         <option value="$PROJECT_DIR$/bar-client/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/bar-client/src/main/java/org/tiger/test/BarApplication.java" />
         <option value="$PROJECT_DIR$/spConfig-repo/client1/foo-dev.yml" />
       </list>
     </option>
@@ -260,6 +261,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="bar-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-example" type="b2602c69:ProjectViewProjectNode" />
@@ -503,7 +512,7 @@
       <workItem from="1512197022000" duration="894000" />
       <workItem from="1512197940422" duration="222000" />
       <workItem from="1512198250993" duration="3501000" />
-      <workItem from="1512202564256" duration="4672000" />
+      <workItem from="1512202564256" duration="5903000" />
     </task>
     <task id="LOCAL-00001" summary="update config for client2">
       <created>1512121092357</created>
@@ -638,11 +647,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512207931875</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="update config dynamic">
+      <created>1512209140545</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1512209140545</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32485000" />
+    <option name="totallyTimeSpent" value="33716000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="29" y="23" width="1407" height="807" extended-state="0" />
@@ -660,7 +676,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5294944" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.63342696" sideWeight="0.4945055" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286517" sideWeight="0.4945055" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2798535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -884,7 +900,7 @@
         <state relative-caret-position="240">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -998,26 +1014,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bar-client/src/main/java/org/tiger/test/BarApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-            <element signature="e#1074#1075#0" expanded="true" />
-            <element signature="e#1139#1140#0" expanded="true" />
-            <marker date="1512203187620" expanded="true" signature="600:651" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spConfig-repo/client1/foo.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bar-client/src/main/java/org/tiger/test/BarApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
+            <marker date="1512209348298" expanded="true" signature="687:738" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
