@@ -5,10 +5,7 @@
     <groupId>org.tiger.test</groupId>
     <artifactId>spring-cloud-example</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <modules>
-        <module>spCloud-client</module>
-        <module>spCloud-config-server</module>
-    </modules>
+
     <packaging>pom</packaging>
 
     <!-- Inherit defaults from Spring Boot -->
@@ -18,6 +15,11 @@
         <version>1.4.0.RELEASE</version>
         <relativePath />
     </parent>
+
+    <modules>
+        <module>foo-client</module>
+        <module>bar-client</module>
+    </modules>
 
     <properties>
         <java.version>1.8</java.version>
