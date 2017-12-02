@@ -6,7 +6,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/tigerMoon/spConfig-repo
-          searchPaths: client1,client2
+          uri: https://github.com/tigerMoon/spring-cloud-example.git
+          searchPaths: spConfig-repo/client1,spConfig-repo/client2
           basedir: target/config
-#      enabled: false
+          default-label: master
+      enabled: true
+
+

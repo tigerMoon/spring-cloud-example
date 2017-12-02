@@ -1,4 +1,4 @@
-package org.tiger.test.client.foo;
+package org.tiger.test;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @SpringBootApplication
 @RestController
-public class Application {
+public class FooApplication {
 
     @Value("${config.name}")
     String name = "World";
@@ -25,13 +25,13 @@ public class Application {
 
     }
 
-    @RequestMapping(value = "/bar",method = RequestMethod.GET,produces = "application/json")
+    @RequestMapping(value = "/foo",method = RequestMethod.GET,produces = "application/json")
     public String foo() {
         return "Hello " + name;
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(FooApplication.class, args);
     }
 
 }

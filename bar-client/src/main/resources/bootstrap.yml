@@ -2,6 +2,7 @@ spring:
   cloud:
     config:
       uri: http://localhost:8889
+      label: master
 
   application:
     name: foo
