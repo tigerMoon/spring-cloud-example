@@ -1,4 +1,5 @@
-### 项目需求
+### 项目需求 
+spring cloud config 实现配置管理及动态刷新
 
 spring cloud config + spring cloud bus  + spring boot
 maven + java8  
@@ -49,7 +50,9 @@ spring:
 
 ### spring cloud bus
 
-spring cloud config 只能在项目启动时拉取配置，spring cloud bus可以通过mq实现动态修改配置，配合Spring cloud config
+spring cloud config 只能在项目启动时拉取配置，spring cloud bus可以通过mq实现动态修改配置，配合Spring cloud config  
+现在依赖 endpoint 的这个路径 /bus/refresh  
+回调的配置：http://c3e6388e.ngrok.io/bus/refresh  
 
 依赖：rabbitmq   （需要自己安装）
 http://localhost:15672
@@ -60,5 +63,5 @@ spring cloud bus，就是通过mq向客户端push消息,触发客户端去更新
 
 触发事件可以通过github的webhook来实现，回调地址可以通过下面的工具代理到localhost
 
-### 转发web hook 到localhost
-https://ngrok.com/
+https://ngrok.com/  
+
