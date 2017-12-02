@@ -1,8 +1,10 @@
 ###这是一个简单的 Spring cloud demo项目
 
-spring cloud config】
+spring cloud config + spring cloud bus  
+maven + java8  
+另外需要本地安装 rabbitmq
 
-###项目架构
+### 项目架构
 
 
 ![架构图](http://on-img.com/chart_image/5a2298a6e4b0f3a7986578a2.png "在这里输入图片标题")
