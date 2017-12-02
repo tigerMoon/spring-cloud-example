@@ -12,12 +12,12 @@
     <artifactId>spConfig-server</artifactId>
 
 
-
     <properties>
         <java.version>1.8</java.version>
         <mockito.version>1.10.19</mockito.version>
         <spring.fox.swagger.version>2.6.1</spring.fox.swagger.version>
     </properties>
+
 
     <dependencies>
 

@@ -1,4 +1,4 @@
-package org.tiger.test.client.bar;
+package org.tiger.test;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -14,9 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @SpringBootApplication
 @RestController
-public class Application {
+public class BarApplication {
 
-//    @Value("${info.description}")
     @Value("${config.name}")
     String name = "World";
 
@@ -32,7 +31,7 @@ public class Application {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(BarApplication.class, args);
     }
 
 }
