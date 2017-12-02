@@ -1,6 +1,12 @@
 ###这是一个简单的 Spring cloud demo项目
 
+spring cloud config】
+
 ###项目架构
+
+
+![架构图](http://on-img.com/chart_image/5a2298a6e4b0f3a7986578a2.png "在这里输入图片标题")
+
 
 ### spring cloud config 简介
 
@@ -48,7 +54,9 @@ http://localhost:15672
 
 配置的动态刷新可以通过两种方式，定时从服务器pull，或者监听服务端的push
 
-spring cloud bus，就是通过mq向客户端push消息的方式来实现的。
+spring cloud bus，就是通过mq向客户端push消息,触发客户端去更新数据。
 
-### web hook 到localhost
+触发事件可以通过github的webhook来实现，回调地址可以通过下面的工具代理到localhost
+
+### 转发web hook 到localhost
 https://ngrok.com/

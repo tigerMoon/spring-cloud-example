@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4105977b-d76d-4012-afc0-eb523a0d3285" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bar-client/src/main/java/org/tiger/test/BarApplication.java" afterPath="$PROJECT_DIR$/bar-client/src/main/java/org/tiger/test/BarApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spConfig-repo/client1/foo-dev.yml" afterPath="$PROJECT_DIR$/spConfig-repo/client1/foo-dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foo-client/src/main/java/org/tiger/test/FooApplication.java" afterPath="$PROJECT_DIR$/foo-client/src/main/java/org/tiger/test/FooApplication.java" />
     </list>
     <ignored path="$PROJECT_DIR$/spCloud-config-server/target/" />
     <ignored path="$PROJECT_DIR$/spCloud-client/test-client-2/target/" />
@@ -23,6 +23,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="FooApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/foo-client/src/main/java/org/tiger/test/FooApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RefreshScope.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/1.1.5.RELEASE/spring-cloud-context-1.1.5.RELEASE-sources.jar!/org/springframework/cloud/context/config/annotation/RefreshScope.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="BarApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bar-client/src/main/java/org/tiger/test/BarApplication.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="foo-dev.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="foo-dev.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spConfig-repo/client1/foo-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="61" lean-forward="false" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
+              <caret line="1" column="61" lean-forward="true" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -80,12 +100,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="750">
-                <caret line="50" column="41" lean-forward="false" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+              <first_editor relative-caret-position="900">
+                <caret line="60" column="25" lean-forward="true" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -102,6 +122,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -139,16 +164,16 @@
         <option value="$PROJECT_DIR$/bar-client/src/main/java/org/tiger/test/Application.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/foo-client/src/main/java/org/tiger/test/client/foo/FooApplication.java" />
-        <option value="$PROJECT_DIR$/foo-client/src/main/java/org/tiger/test/FooApplication.java" />
         <option value="$PROJECT_DIR$/spConfig-server/src/main/java/org/tiger/test/Application.java" />
         <option value="$PROJECT_DIR$/spConfig-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/bar-client/pom.xml" />
         <option value="$PROJECT_DIR$/foo-client/pom.xml" />
         <option value="$PROJECT_DIR$/spConfig-server/pom.xml" />
         <option value="$PROJECT_DIR$/bar-client/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/bar-client/src/main/java/org/tiger/test/BarApplication.java" />
         <option value="$PROJECT_DIR$/spConfig-repo/client1/foo-dev.yml" />
+        <option value="$PROJECT_DIR$/foo-client/src/main/java/org/tiger/test/FooApplication.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -226,82 +251,6 @@
             <path>
               <item name="spring-cloud-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-example" type="462c0819:PsiDirectoryNode" />
-              <item name="bar-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-example" type="462c0819:PsiDirectoryNode" />
-              <item name="bar-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-example" type="462c0819:PsiDirectoryNode" />
-              <item name="bar-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-example" type="462c0819:PsiDirectoryNode" />
-              <item name="bar-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-example" type="462c0819:PsiDirectoryNode" />
-              <item name="bar-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-example" type="462c0819:PsiDirectoryNode" />
-              <item name="bar-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-example" type="462c0819:PsiDirectoryNode" />
-              <item name="spConfig-repo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-example" type="462c0819:PsiDirectoryNode" />
-              <item name="spConfig-repo" type="462c0819:PsiDirectoryNode" />
-              <item name="client1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-config-server:1.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-config-server:1.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-config-server-1.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-config-server:1.2.1.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-config-server-1.2.1.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -512,7 +461,7 @@
       <workItem from="1512197022000" duration="894000" />
       <workItem from="1512197940422" duration="222000" />
       <workItem from="1512198250993" duration="3501000" />
-      <workItem from="1512202564256" duration="5903000" />
+      <workItem from="1512202564256" duration="6618000" />
     </task>
     <task id="LOCAL-00001" summary="update config for client2">
       <created>1512121092357</created>
@@ -654,11 +603,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512209140545</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="update config dynamic">
+      <created>1512216003519</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1512216003520</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33716000" />
+    <option name="totallyTimeSpent" value="34431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="29" y="23" width="1407" height="807" extended-state="0" />
@@ -676,10 +632,10 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5294944" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286517" sideWeight="0.4945055" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24297753" sideWeight="0.4945055" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2798535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24761905" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -726,16 +682,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spConfig-repo/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spConfig-repo/foo.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -895,16 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foo-client/src/main/java/org/tiger/test/FooApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/1.2.1.RELEASE/spring-cloud-config-server-1.2.1.RELEASE-sources.jar!/org/springframework/cloud/config/server/EnableConfigServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -971,17 +907,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="750">
-            <caret line="50" column="41" lean-forward="false" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/config/bar-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1040,8 +965,35 @@
     <entry file="file://$PROJECT_DIR$/spConfig-repo/client1/foo-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="61" lean-forward="false" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
+          <caret line="1" column="61" lean-forward="true" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo-client/src/main/java/org/tiger/test/FooApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/1.1.5.RELEASE/spring-cloud-context-1.1.5.RELEASE-sources.jar!/org/springframework/cloud/context/config/annotation/RefreshScope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="900">
+            <caret line="60" column="25" lean-forward="true" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
