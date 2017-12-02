@@ -6,8 +6,8 @@
     <artifactId>spring-cloud-example</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <modules>
-        <module>test-client-1</module>
-        <module>test-client-2</module>
+        <module>spCloud-client</module>
+        <module>spCloud-config-server</module>
     </modules>
     <packaging>pom</packaging>
 
