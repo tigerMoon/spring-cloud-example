@@ -1,4 +1,4 @@
-package org.tiger.test.client1.web;
+package org.tiger.test.client.foo.web;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

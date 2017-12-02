@@ -1,4 +1,4 @@
-package org.tiger.test.client2;
+package org.tiger.test.client.bar;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -7,12 +7,16 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Created by tiger on 16-11-30.
  */
 @SpringBootApplication
+@RestController
 public class Application {
+
+//    @Value("${info.description}")
     @Value("${config.name}")
     String name = "World";
 
@@ -22,7 +26,7 @@ public class Application {
 
     }
 
-    @RequestMapping(value = "/bar",method = RequestMethod.GET,produces = "application/json")
+    @RequestMapping(value = "/foo",method = RequestMethod.GET,produces = "application/json")
     public String foo() {
         return "Hello " + name;
     }
