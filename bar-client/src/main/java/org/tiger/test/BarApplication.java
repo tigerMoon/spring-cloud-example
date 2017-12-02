@@ -16,19 +16,19 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class BarApplication {
 
-//    @Value("${config.name}")
-//    String name = "World";
+    @Value("${config.name}")
+    String name = "World";
 
-//    @RequestMapping(value = "/app",method = RequestMethod.GET,produces = "application/json")
-//    public ResponseEntity<String> application() {
-//        return new ResponseEntity<>("Hello " + name, HttpStatus.OK);
-//
-//    }
-//
-//    @RequestMapping(value = "/foo",method = RequestMethod.GET,produces = "application/json")
-//    public String foo() {
-//        return "Hello " + name;
-//    }
+    @RequestMapping(value = "/app",method = RequestMethod.GET,produces = "application/json")
+    public ResponseEntity<String> application() {
+        return new ResponseEntity<>("Hello " + name, HttpStatus.OK);
+
+    }
+
+    @RequestMapping(value = "/foo",method = RequestMethod.GET,produces = "application/json")
+    public String foo() {
+        return "Hello " + name;
+    }
 
     public static void main(String[] args) {
         SpringApplication.run(BarApplication.class, args);

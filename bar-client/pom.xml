@@ -55,7 +55,7 @@
     </dependencies>
 
     <build>
-        <pluginManagement>
+
             <plugins>
                 <plugin>
                     <artifactId>maven-surefire-plugin</artifactId>
@@ -71,7 +71,6 @@
                     <version>1.5.9.RELEASE</version>
                 </plugin>
             </plugins>
-        </pluginManagement>
     </build>
 
     
