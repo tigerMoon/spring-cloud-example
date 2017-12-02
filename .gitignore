@@ -16,5 +16,6 @@ target
 *.pid
 *.log
 *.DS_Store
+workspace.xml
 nohup.out
 
