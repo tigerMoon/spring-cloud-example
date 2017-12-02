@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>spConfig-server</artifactId>
+    <packaging>jar</packaging>
 
 
     <properties>
@@ -20,7 +21,6 @@
 
 
     <dependencies>
-
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-bus-amqp</artifactId>
@@ -84,6 +84,11 @@
                         <skipTests>true</skipTests>
                     </configuration>
                     <version>2.19.1</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <version>1.5.9.RELEASE</version>
                 </plugin>
             </plugins>
         </pluginManagement>
