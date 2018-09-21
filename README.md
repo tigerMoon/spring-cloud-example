@@ -65,3 +65,8 @@ spring cloud bus，就是通过mq向客户端push消息,触发客户端去更新
 
 https://ngrok.com/ 
 
+### zuul gateway
+
+### enreka service discovery
+
+

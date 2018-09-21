@@ -22,6 +22,7 @@
         <module>spConfig-server</module>
         <module>zuul-gateway</module>
         <module>zuul-client</module>
+        <module>enreka-server</module>
     </modules>
 
     <properties>

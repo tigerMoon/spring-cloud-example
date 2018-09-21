@@ -1,15 +1,16 @@
 package hello;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.actuate.health.OrderedHealthAggregator;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.netflix.eureka.EurekaHealthCheckHandler;
-import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 import org.springframework.context.annotation.Bean;
 
-@EnableZuulProxy
+@EnableEurekaServer
 @SpringBootApplication
-public class GatewayApplication {
+public class EurekaServiceApplication {
+
 
     @Bean
     public EurekaHealthCheckHandler getHandler(){
@@ -17,6 +18,6 @@ public class GatewayApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(GatewayApplication.class, args);
+        new SpringApplicationBuilder(EurekaServiceApplication.class).web(true).run(args);
     }
 }
