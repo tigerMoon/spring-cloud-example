@@ -63,5 +63,5 @@ spring cloud bus，就是通过mq向客户端push消息,触发客户端去更新
 
 触发事件可以通过github的webhook来实现，回调地址可以通过下面的工具代理到localhost
 
-https://ngrok.com/  
+https://ngrok.com/ 
 

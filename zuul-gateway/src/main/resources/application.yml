@@ -1,0 +1,13 @@
+
+server:
+  port: 8990
+
+zuul:
+  routes:
+    foo:
+      path: /foo/**
+      url: http://aff83a1a.ngrok.io/foo
+
+ribbon:
+  eureka:
+    enabled: false
