@@ -1,8 +1,7 @@
-package hello;
+package coke;
 
-import coke.CokeApplication;
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.actuate.health.OrderedHealthAggregator;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -18,19 +17,15 @@ import java.util.List;
 @SpringBootApplication
 @RestController
 @EnableDiscoveryClient
-public class BookApplication {
+public class CokeApplication {
 
     @Autowired
     private DiscoveryClient discoveryClient;
 
-    @RequestMapping(value = "/book", method = RequestMethod.GET)
-    public String book() {
-        return "《Hello World》";
-    }
 
-    @RequestMapping(value = "/book/people", method = RequestMethod.GET)
-    public String foo(@RequestParam String p) {
-        return "《people`s world》";
+    @RequestMapping(value = "/coke", method = RequestMethod.GET)
+    public String coke() {
+        return "coca";
     }
 
     @RequestMapping(value = "/block", method = RequestMethod.GET)
@@ -54,18 +49,19 @@ public class BookApplication {
     }
 
     @Bean
-    public EurekaHealthCheckHandler getBookHandler() {
+    public EurekaHealthCheckHandler getCokeHandler() {
         return new EurekaHealthCheckHandler(new OrderedHealthAggregator());
     }
 
     @RequestMapping("/service-instances/{applicationName}")
-    public List<ServiceInstance> serviceInstancesByApplicationNameBook(@PathVariable String applicationName) {
+    public List<ServiceInstance> serviceInstancesByApplicationNameCoke(@PathVariable String applicationName) {
         return this.discoveryClient.getInstances(applicationName);
     }
 
     public static void main(String[] args) {
         new SpringApplicationBuilder(CokeApplication.class)
-                .properties("server.port=9081", "spring.application.name=book")
+                .properties("server.port=9082", "spring.application.name=coke")
                 .run(args);
     }
+
 }

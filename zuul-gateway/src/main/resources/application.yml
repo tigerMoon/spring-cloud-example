@@ -2,11 +2,18 @@
 server:
   port: 8990
 
+management:
+  security:
+    enabled: false
+
 zuul:
   routes:
     book:
       path: /book/**
       serviceId: book
+    coke:
+      path: /coke/**
+      serviceId: coke
 
 eureka:
   client:
